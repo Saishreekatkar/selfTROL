@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/gradient_background"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:fillViewport="true"
+            android:id="@+id/r9f2jpi0eucd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_background"
+            android:paddingTop="13dp"
+            android:paddingBottom="-2dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/rn47c0tqzl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="12dp"
+                    android:paddingHorizontal="19dp"
+                    android:layout_marginBottom="11dp"
+                    android:orientation="horizontal">
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/r6zrg4m2u7s7"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="28dp"
+                    android:layout_marginHorizontal="138dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Settings"
+                    />
+
+
+
+
+                <TextView
+                    android:id="@+id/rzo18kfqdm2p"
+                    android:textColor="#FFFFFF"
+                    android:textSize="19sp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginHorizontal="17dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="About the App"
+                    />
+                <TextView
+                    android:id="@+id/rckyouya72e5"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginHorizontal="17dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="App Version"
+                    />
+                <TextView
+                    android:id="@+id/r3tg9o5p4cq9"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="17dp"
+                    android:layout_marginHorizontal="17dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Terms of Service"
+                    />
+                <TextView
+                    android:id="@+id/rvsowx10d52"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginHorizontal="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Privacy Policy"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/rn47c0tq"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:paddingVertical="12dp"
+                    android:paddingHorizontal="19dp"
+                    android:layout_marginBottom="11dp"
+                    android:orientation="horizontal">
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/r7ant05c5hvs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginHorizontal="4dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/main_menu"
+            layout="@layout/activity_main_menu"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

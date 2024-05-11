@@ -1,0 +1,41 @@
+<!-- res/drawable/glowing_circle.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outermost Glow with Radial Gradient -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="20dp"
+                android:color="#00FFFFFF"/> <!-- Fully transparent color for the outermost glow -->
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+
+    <!-- Inner Glow with Radial Gradient -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="10dp"
+                android:color="#00FFFFFF"/> <!-- Fully transparent color for the inner glow -->
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+
+    <!-- Circle Outline with Linear Gradient -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="3dp"
+                android:color="#62D4CA"/> <!-- Blue color for the circle outline -->
+            <solid android:color="@android:color/transparent"/>
+            <gradient
+                android:centerX="70%"
+                android:startColor="#804CD6FF"
+                android:centerColor="#8004485C"
+                android:endColor="#804CD6FF"
+                android:type="radial"
+                />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_menu"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <!-- Circular Button 1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/Home"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@android:color/transparent"
+                android:onClick="redirectToHome"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home_icon" />
+
+
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="4dp"
+                android:layout_gravity="center">
+            </View>
+            <!-- Circular Button 2 -->
+            <ImageButton
+                android:id="@+id/screen_time"
+                android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="redirectToHome"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dashboard" />
+
+
+
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="4dp"
+                android:layout_gravity="center">
+            </View>
+            <!-- Circular Button 3 -->
+            <ImageButton
+                android:id="@+id/lock_app_select_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@null"
+                android:onClick="redirectToAddTask"
+                android:focusable="true"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="5dp"
+                android:src="@drawable/blue_plus" />
+
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="4dp"
+                android:layout_gravity="center">
+            </View>
+            <ImageButton
+                android:id="@+id/setting"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="redirectToSettings"
+                android:focusable="true"
+                android:src="@drawable/settings"
+                android:scaleType="fitCenter"
+                android:background="@null" />
+
+
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="4dp"
+                android:layout_gravity="center">
+            </View>
+
+
+        </LinearLayout>
+
+    </LinearLayout>

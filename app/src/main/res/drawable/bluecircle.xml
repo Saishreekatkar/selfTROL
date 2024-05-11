@@ -1,0 +1,36 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Shape -->
+<!--    <item>-->
+<!--        <shape android:shape="oval">-->
+<!--            <stroke-->
+<!--                android:width="8dp"-->
+<!--                android:color="#6ADEED"/>-->
+<!--            <solid android:color="@android:color/transparent"/>-->
+<!--        </shape>-->
+<!--    </item>-->
+    <item android:right="-1dp" android:left="-1dp" android:top="-1dp" android:bottom="5dp">
+        <shape android:shape="oval">
+            <stroke
+                android:width="8dp"
+                android:color="#406DEBFB"/>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:right="3dp" android:left="3dp" android:top="3dp" android:bottom="4dp">
+        <shape android:shape="oval">
+            <stroke
+                android:width="8dp"
+                android:color="#4071E4F3"/>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <!-- Shadow Layer -->
+    <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="4dp">
+        <shape android:shape="oval">
+            <stroke
+                android:width="4dp"
+                android:color="#62D4CA"/>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+</layer-list>

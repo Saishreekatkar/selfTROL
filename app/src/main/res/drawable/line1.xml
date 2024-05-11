@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color, you can adjust the colors as needed -->
+    <item android:drawable="@android:color/transparent" />
+    <!-- Top color of the gradient -->
+    <item>
+        <shape>
+            <solid android:color="#62D4CA" />
+        </shape>
+    </item>
+   <!-- <item>
+        <shape>
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>-->
+</layer-list>

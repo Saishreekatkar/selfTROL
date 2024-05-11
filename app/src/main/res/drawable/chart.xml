@@ -1,0 +1,10 @@
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="rectangle"
+    tools:ignore="ExtraText">
+    <solid android:color="#FFC107" /> <!-- Change color as needed -->
+    <size
+        android:width="200dp"></size> <!-- Adjust width as needed -->
+    android:height="200dp" /> <!-- Adjust height as needed -->
+</shape>
